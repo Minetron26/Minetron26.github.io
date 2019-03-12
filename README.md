@@ -1,2 +1,2 @@
-# minetron26.github.io
-A test of a Web Page.
+# Minetron26.github.io
+A Test of a Web Page.
