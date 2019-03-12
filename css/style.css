@@ -25,7 +25,8 @@ body {
 
 #font-link {
   text-decoration: none;
-  color: #5900ff;
+  color: #ff6b00;
+  font-family: 'Orbitron', sans-serif;
   animation-name: changesize;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
