@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Orbitron');
 
+html {
+  background: linear-gradient(400px, #000000, #2a2a2a);
+  animation-name: backgroundanimate;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-play-state: running;
+}
+
 body {
   margin: 0;
 }
@@ -59,5 +67,17 @@ body {
   }
   100%{
     font-size: 25px;
+  }
+}
+
+@keyframes backgroundanimate {
+  0%{
+    background: linear-gradient(400px, #000000, #2a2a2a);
+  }
+  50%{
+    background: linear-gradient(400px, #2a2a2a, #000000);
+  }
+  100%{
+    background: linear-gradient(400px, #000000, #2a2a2a);
   }
 }
