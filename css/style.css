@@ -13,5 +13,11 @@ body {
 }
 
 #font-text {
-  line-height: 5px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 3px;
+}
+
+#font-link {
+  text-decoration: none;
 }
