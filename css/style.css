@@ -13,6 +13,7 @@ body {
 }
 
 .fontinfo {
+  border: solid 1px BLACK;
   width: 200px;
   height: 45px;
 }
@@ -29,6 +30,4 @@ body {
 }
 
 .fontinfo:hover {
-  border: solid 2px #05adff;
-  background-color: #00fff0;
 }
