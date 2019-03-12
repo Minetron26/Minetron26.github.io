@@ -6,7 +6,7 @@ body {
   background-size: 400%
   animation-name: backgroundanimate;
   animation-iteration-count: infinite;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-play-state: running;
 }
 
@@ -73,6 +73,6 @@ body {
     background-position: 0%;
   }
   100%{
-    background-position: 400%;
+    background-position: 200%;
   }
 }
