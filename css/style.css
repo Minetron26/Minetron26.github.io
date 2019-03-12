@@ -4,10 +4,6 @@ body {
   margin: 0;
   background: linear-gradient(90deg, #000000, #2a2a2a, #000000, #2a2a2a);
   background-size: 400%
-  animation-name: backgroundanimate;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-play-state: running;
 }
 
 .hello-world {
@@ -65,14 +61,5 @@ body {
   }
   100%{
     font-size: 25px;
-  }
-}
-
-@keyframes backgroundanimate {
-  0%{
-    background-position: 0%;
-  }
-  100%{
-    background-position: 200%;
   }
 }
