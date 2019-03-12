@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Orbitron');
 
 body {
   margin: 0;
@@ -7,6 +7,6 @@ body {
 .hello-world {
   font-size: 100px;
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Orbitron', sans-serif;
   color: #000000;
 }
