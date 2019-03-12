@@ -31,10 +31,7 @@ body {
   0%{
     font-size: 0px;
   }
-  40%{
-    font-size: 100px;
-  }
-  80%{
+  50%{
     font-size: 120px;
   }
   100%{
