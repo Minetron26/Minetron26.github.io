@@ -28,7 +28,7 @@ body {
   text-decoration: none;
 }
 
-.font:hover {
+.fontinfo:hover {
   border: solid 2px #05adff;
   border-color: #00fff0;
 }
