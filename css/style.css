@@ -12,7 +12,7 @@ body {
   line-height: 5px;
   animation-name: showtext;
   animation-iteration-count: 2;
-  animation-duration: 6;
+  animation-duration: 6s;
   animation-play-state: running;
 }
 
