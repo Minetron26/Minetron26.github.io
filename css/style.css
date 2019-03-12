@@ -11,8 +11,8 @@ body {
   color: #000000;
   line-height: 5px;
   animation-name: showtext;
-  animation-iteration-count: 0;
-  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
   animation-play-state: running;
 }
 
