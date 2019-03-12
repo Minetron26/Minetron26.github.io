@@ -35,9 +35,7 @@ body {
 }
 
 .fontinfo {
-  border: solid 1px BLACK;
-  border-radius: 10px;
-  align-content: center;
+  align: center;
   width: 200px;
   height: 45px;
 }
