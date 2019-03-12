@@ -11,8 +11,8 @@ body {
   color: #000000;
   line-height: 5px;
   animation-name: showtext;
-  animation-iteration-count: 2;
-  animation-duration: 6s;
+  animation-iteration-count: 0;
+  animation-duration: 4s;
   animation-play-state: running;
 }
 
@@ -37,7 +37,10 @@ body {
   40%{
     font-size: 40px;
   }
-  70%{
+  60%{
+    font-size: 70px;
+  }
+  80%{
     font-size: 120px;
   }
   100%{
