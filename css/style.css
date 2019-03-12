@@ -42,6 +42,12 @@ body {
   animation-play-state: running;
 }
 
+section p{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courgette' sans-serif;
+}
+
 @keyframes showtext {
   0%{
     font-size: 0px;
