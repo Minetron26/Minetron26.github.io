@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: linear-gradient(400px, #000000, #2a2a2a);
+  background: linear-gradient(400px, #000000, #2a2a2a);
   animation-name: backgroundanimate;
   animation-iteration-count: infinite;
   animation-duration: 3s;
@@ -69,12 +69,12 @@ body {
 
 @keyframes backgroundanimate {
   0%{
-    background-color: linear-gradient(400px, #000000, #2a2a2a);
+    background: linear-gradient(400px, #000000, #2a2a2a);
   }
   50%{
-    background-color: linear-gradient(400px, #2a2a2a, #000000);
+    background: linear-gradient(400px, #2a2a2a, #000000);
   }
   100%{
-    background-color: linear-gradient(400px, #000000, #2a2a2a);
+    background: linear-gradient(400px, #000000, #2a2a2a);
   }
 }
