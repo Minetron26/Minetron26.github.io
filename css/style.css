@@ -10,13 +10,24 @@ body {
   font-family: 'Orbitron', sans-serif;
   color: #000000;
   line-height: 5px;
-  animation-name: show;
-  animation-iteration-count: 1;
-  animation-duration: 4;
+  animation-name: showtext;
+  animation-iteration-count: 2;
+  animation-duration: 6;
   animation-play-state: running;
 }
 
-@keyframes show {
+#font-text {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  line-height: 3px;
+}
+
+#font-link {
+  text-decoration: none;
+}
+
+@keyframes showtext {
   0%{
     font-size: 0px;
   }
@@ -32,21 +43,4 @@ body {
   100%{
     font-size: 100px;
   }
-}
-
-.fontinfo {
-  align: center;
-  width: 200px;
-  height: 45px;
-}
-
-#font-text {
-  display: block;
-  font-size: 25px;
-  text-align: center;
-  line-height: 3px;
-}
-
-#font-link {
-  text-decoration: none;
 }
