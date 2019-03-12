@@ -42,10 +42,11 @@ body {
   animation-play-state: running;
 }
 
-section p{
+.description{
   text-align: center;
+  color: rgba(#ff8200, 0.71);
   font-size: 30px;
-  font-family: 'Courgette' sans-serif;
+  font-family: 'Courgette', cursive;
 }
 
 @keyframes showtext {
