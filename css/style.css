@@ -3,7 +3,7 @@
 body {
   margin: 0;
   background: linear-gradient(90deg, #000000, #2a2a2a, #000000, #2a2a2a);
-  background-size: 400%
+  background-size: 100%
 }
 
 .hello-world {
@@ -21,7 +21,7 @@ body {
 #font-text {
   display: block;
   font-family: 'Orbitron', sans-serif;
-  color: #730000;
+  color: #9d0000;
   font-size: 25px;
   text-align: center;
   line-height: 3px;
