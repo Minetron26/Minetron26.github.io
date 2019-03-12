@@ -25,6 +25,16 @@ body {
 
 #font-link {
   text-decoration: none;
+  color: #5900ff;
+  animation-name: changesize;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-play-state: paused;
+}
+
+#font-link:hover {
+  color: #00ff94;
+  animation-play-state: running;
 }
 
 @keyframes showtext {
@@ -36,5 +46,17 @@ body {
   }
   100%{
     font-size: 100px;
+  }
+}
+
+@keyframes changesize {
+  0%{
+    font-size: 25px;
+  }
+  50%{
+    font-size: 35px;
+  }
+  100%{
+    font-size: 20px;
   }
 }
