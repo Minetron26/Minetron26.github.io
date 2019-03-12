@@ -13,8 +13,8 @@ body {
 }
 
 .fontinfo {
-  width: 32px;
-  height: 120px;
+  width: 200px;
+  height: 45px;
 }
 
 #font-text {
@@ -30,5 +30,5 @@ body {
 
 .fontinfo:hover {
   border: solid 2px #05adff;
-  border-color: #00fff0;
+  background-color: #00fff0;
 }
