@@ -13,11 +13,16 @@
       <section>
         <p class="description">This is a test Web Page.</p>
       </section>
-      <script src="https://github.com/Nickersoft/push.js" charset="utf-8"></script>
+        <script src="https://github.com/Nickersoft/push.js/blob/master/bin/push.min.js" charset="utf-8"></script>
       <script type="text/javascript">
-        Push.create("MyNotification", {
-			    body: "Hello World!."
-        });
-      </script>
+      Push.create("Hello world!", {
+       body: "How's it hangin'?",
+       timeout: 4000,
+      onClick: function () {
+        window.focus();
+        this.close();
+    }
+});
+</script>
   </body>
 </html>
