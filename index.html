@@ -13,9 +13,9 @@
       <section>
         <p class="description">This is a test Web Page.</p>
       </section>
-    <button type="button" onclick="notification()">Enviar</button>
+    <button type="button" onclick="notificar()">Enviar</button>
       <script type="text/javascript">
-        function notification(){
+        function notificar(){
           if(Notification.permission !== "granted"){
             Notification.requestPermission();
           } else {
