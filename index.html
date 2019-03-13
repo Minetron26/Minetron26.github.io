@@ -14,17 +14,11 @@
         <p class="description">This is a test Web Page.</p>
       </section>
     <button type="button" onclick="notificar()">Enviar</button>
+      <script src="https://github.com/Nickersoft/push.js" charset="utf-8"></script>
       <script type="text/javascript">
-        function notificar(){
-          if(Notification.permission !== "granted"){
-            Notification.requestPermission();
-          } else {
-            ver mynotification = new Notification({
-              title: "My Notification",
-              body: "Hello World!"
-            });
-          }
-        }
+        Push.create("MyNotification", {
+			    body: "Hello World!."
+        });
       </script>
   </body>
 </html>
