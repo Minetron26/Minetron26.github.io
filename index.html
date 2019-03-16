@@ -15,11 +15,10 @@
       </section>
         <script src="https://minetron26.github.io/js/push.min.js" charset="utf-8"></script>
       <script type="text/javascript">
-      Push.create("Hello world!", {
-       body: "How's it hangin'?",
-       timeout: 4000,
+      Push.create("Hello World!", {
+       body: "Click Me!",
       onClick: function () {
-        window.focus();
+        alert("Hello World!");
         this.close();
     }
 });
