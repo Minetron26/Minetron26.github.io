@@ -5,11 +5,11 @@ html {
 }
 
 html::-webkit-scrollbar {
-  display: none;
+  visibility: hidden;
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #000000;
+  background: #FF6800;
 }
 
 body {
