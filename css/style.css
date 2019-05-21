@@ -73,6 +73,10 @@ img {
   text-align: center;
 }
 
+svg:hover {
+  transform: rotate(90deg);
+}
+
 @keyframes showtext {
   0%{
     font-size: 0px;
