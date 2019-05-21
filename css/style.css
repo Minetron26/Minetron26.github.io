@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Orbitron');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background: linear-gradient(90deg, #000000, #2a2a2a, #000000, #2a2a2a);
@@ -47,6 +51,13 @@ body {
   color: #ff6b00;
   font-size: 30px;
   font-family: 'Courgette', cursive;
+}
+
+#icons8 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #00ff57;
 }
 
 @keyframes showtext {
