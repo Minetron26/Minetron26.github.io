@@ -55,9 +55,14 @@ body {
 
 #icons8 {
   font-size: 20px;
-  text-align: center;
   text-decoration: none;
   color: #00ff57;
+  font-family: 'Courgette', cursive;
+}
+
+#section1 {
+  font-family: 'Courgette', cursive;
+  font-size: 65px;
 }
 
 @keyframes showtext {
