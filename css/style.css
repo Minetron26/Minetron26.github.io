@@ -8,6 +8,10 @@ html::-webkit-scrollbar {
   visibility: hidden;
 }
 
+html::-webkit-scrollbar-track {
+  display: none;
+}
+
 html::-webkit-scrollbar-thumb {
   background: #FF6800;
 }
