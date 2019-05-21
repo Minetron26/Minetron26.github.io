@@ -9,7 +9,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  display: none;
+  background: rgba(138,221,45,0);
 }
 
 html::-webkit-scrollbar-thumb {
