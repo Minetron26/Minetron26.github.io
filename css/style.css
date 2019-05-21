@@ -5,10 +5,6 @@ html {
 }
 
 html::-webkit-scrollbar {
-  visibility: hidden;
-}
-
-html::-webkit-scrollbar-track {
   background: rgba(138,221,45,0);
 }
 
