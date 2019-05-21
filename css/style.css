@@ -74,7 +74,8 @@ img {
 }
 
 svg:hover {
-  transform: rotate(90deg);
+  transform: rotate(380deg);
+  transition-delay: 2s;
 }
 
 @keyframes showtext {
