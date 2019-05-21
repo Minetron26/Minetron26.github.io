@@ -5,11 +5,16 @@ html {
 }
 
 html::-webkit-scrollbar {
-  background: rgba(138,221,45,0);
+  width: 8px;
+  visibility: hidden;
 }
 
 html::-webkit-scrollbar-thumb {
   background: #FF6800;
+}
+
+html::-webkit-scrollbar-track {
+  background: #FF6100;
 }
 
 body {
