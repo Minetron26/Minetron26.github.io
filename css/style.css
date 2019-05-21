@@ -66,7 +66,7 @@ body {
   color: #ff6b00;
   font-size: 30px;
   font-family: 'Courgette', cursive;
-  margin-bottom: -5px;
+  margin-bottom: -2px;
 }
 
 img {
@@ -83,19 +83,19 @@ img {
 
 #section1 {
   font-family: 'Courgette', cursive;
-  font-size: 47px;
+  font-size: 44px;
   color: #00c9ff;
   text-align: center;
 }
 
 svg {
   transform: rotate(0deg);
-  transition-duration: 0.7s;
+  transition-duration: 0.5s;
 }
 
 svg:hover {
   transform: rotate(360deg);
-  transition-duration: 1s;
+  transition-duration: 0.7s;
 }
 
 @keyframes showtext {
